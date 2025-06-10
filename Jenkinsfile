@@ -6,7 +6,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch: 'master', url:'https://github.com/bitcsedevops04/Maven417.git'
+				git branch: 'master', url:''
 			}
 		}
 		stage('Build'){
